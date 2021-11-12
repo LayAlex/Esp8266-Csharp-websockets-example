@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = WebSocketsEsp8266
+build_property.ProjectDir = C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\

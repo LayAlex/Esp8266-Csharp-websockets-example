@@ -1,0 +1,14 @@
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\bin\Debug\netcoreapp3.1\WebSocketsEsp8266.exe
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\bin\Debug\netcoreapp3.1\WebSocketsEsp8266.deps.json
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\bin\Debug\netcoreapp3.1\WebSocketsEsp8266.runtimeconfig.json
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\bin\Debug\netcoreapp3.1\WebSocketsEsp8266.runtimeconfig.dev.json
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\bin\Debug\netcoreapp3.1\WebSocketsEsp8266.dll
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\bin\Debug\netcoreapp3.1\WebSocketsEsp8266.pdb
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\obj\Debug\netcoreapp3.1\WebSocketsEsp8266.csproj.AssemblyReference.cache
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\obj\Debug\netcoreapp3.1\WebSocketsEsp8266.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\obj\Debug\netcoreapp3.1\WebSocketsEsp8266.AssemblyInfoInputs.cache
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\obj\Debug\netcoreapp3.1\WebSocketsEsp8266.AssemblyInfo.cs
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\obj\Debug\netcoreapp3.1\WebSocketsEsp8266.csproj.CoreCompileInputs.cache
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\obj\Debug\netcoreapp3.1\WebSocketsEsp8266.dll
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\obj\Debug\netcoreapp3.1\WebSocketsEsp8266.pdb
+C:\Users\home\Desktop\Projects\RemoteDevices\ESP8266\arduino_motor_capatitor\websockets\WebSocketsEsp8266\WebSocketsEsp8266\obj\Debug\netcoreapp3.1\WebSocketsEsp8266.genruntimeconfig.cache
