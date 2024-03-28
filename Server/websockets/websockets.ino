@@ -5,7 +5,6 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiMulti.h>
 #include <WebSocketsServer.h>
-#include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 #include <Hash.h>
 #include "Page.h"
@@ -19,7 +18,7 @@ const char *password = "pupsmups5";
 
 ESP8266WiFiMulti WiFiMulti;
 
-ESP8266WebServer server(80);
+//ESP8266WebServer server(80);
 WebSocketsServer webSocket = WebSocketsServer(81);
 
 void webSocketEvent(uint8_t num, WStype_t type, uint8_t *payload, size_t length)
@@ -82,6 +81,14 @@ void setup()
     delay(100);
   }
 
+
+// Установка статического IP-адреса
+  IPAddress ip(192, 168, 0, 109); // Задайте статический IP-адрес
+  IPAddress gateway(192, 168, 0, 1); // Задайте IP-адрес шлюза
+  IPAddress subnet(255, 255, 255, 0); // Задайте подсеть
+  IPAddress dns(8, 8, 8, 8); // Задайте адрес DNS-сервера
+  WiFi.config(ip, gateway, subnet, dns);
+
   // start webSocket server
   webSocket.begin();
   webSocket.onEvent(webSocketEvent);
@@ -91,17 +98,9 @@ void setup()
     USE_SERIAL.println("MDNS responder started");
   }
 
-  // handle index
-  server.on("/", []()
-            {
-              // send index.html
-              server.send(200, "text/html", PAGE);
-            });
-
-  server.begin();
 
   // Add service to MDNS
-  MDNS.addService("http", "tcp", 80);
+  //MDNS.addService("http", "tcp", 80);
   MDNS.addService("ws", "tcp", 81);
 
   digitalWrite(LED_BLUE, 0);
@@ -114,7 +113,6 @@ void loop()
 {
   unsigned long t = millis();
   webSocket.loop();
-  server.handleClient();
 
   if ((t - last_10sec) > 10 * 1000)
   {

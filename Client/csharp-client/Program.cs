@@ -8,7 +8,7 @@ namespace csharp_client
     {
         static void Main(string[] args)
         {
-            using (WebSocket ws = new WebSocket("ws://192.168.0.111:81/"))
+            using (WebSocket ws = new WebSocket("ws://192.168.0.109:81/"))
             {
                 ws.OnMessage += Ws_OnMessage;
 
